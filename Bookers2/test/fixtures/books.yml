@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title：本のタイトル: MyString
+  body：感想: MyString
+
+two:
+  title：本のタイトル: MyString
+  body：感想: MyString
