@@ -1,12 +1,13 @@
  <p id="notice">
 <%=  notice %>
-<h1>User info</h1>
+
 </p>
-<div class="container">  <!-- この行を追加 -->
+<div class="container">
     <div class="row">
         <div class="col-xs-3" >
-             <%= render 'users/list2', user:current_user %>
+             <%= render 'users/list2', user:@user %>
              <%= render 'users/list', book:@book %>
+        </div>
         <div class="col-xs-9">
 
 <table class="table table-striped">
@@ -36,12 +37,12 @@
 
 <% end %>
   </tbody>
-  
+
  </table>
 </table>
+
         </div>
-        </div>  
-    </div>  
-    </div> 
-</div>   
+    </div>
+    </div>
+</div>
 
